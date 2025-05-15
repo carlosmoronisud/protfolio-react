@@ -1,0 +1,101 @@
+.portfolio-footer {
+    background-color: #1a1a1a;
+    color: #E0E0E0;
+    padding: 2.5rem 1rem 1rem;
+    margin-top: 3rem;
+    border-top: 1px solid #DA00FF;
+    box-shadow: 0 -5px 15px rgba(218, 0, 255, 0.1);
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding-bottom: 1.5rem;
+}
+
+.footer-brand h3 {
+    color: #DA00FF;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.footer-brand p {
+    color: #aaa;
+    font-size: 0.9rem;
+}
+
+.footer-social {
+    display: flex;
+    gap: 1.2rem;
+    align-items: center;
+}
+
+.social-icon {
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.social-icon img {
+    width: 28px;
+    height: 28px;
+    opacity: 0.8;
+    transition: all 0.3s ease;
+}
+
+.social-icon:hover img {
+    opacity: 1;
+    transform: translateY(-2px);
+}
+
+.footer-bottom {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 1.5rem;
+    border-top: 1px solid #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    text-align: center;
+    font-size: 0.85rem;
+    color: #888;
+}
+
+.footer-message {
+    font-style: italic;
+    color: #DA00FF;
+    margin-top: 0.5rem;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+        gap: 1.5rem;
+    }
+    
+    .footer-social {
+        justify-content: center;
+    }
+    
+    .footer-bottom {
+        padding-top: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .footer-brand h3 {
+        font-size: 1.3rem;
+    }
+    
+    .social-icon img {
+        width: 24px;
+        height: 24px;
+    }
+}

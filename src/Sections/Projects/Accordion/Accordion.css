@@ -1,0 +1,261 @@
+/* Estilos gerais para o container principal */
+.skills-accordion-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.skills-section-title {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #b000cc;
+  font-size: 2rem;
+  position: relative;
+}
+
+.skills-section-title::after {
+  content: '';
+  display: block;
+  width: 100px;
+  height: 3px;
+  background: linear-gradient(90deg, #b000cc, #6a00cc);
+  margin: 0.5rem auto 0;
+}
+
+/* Espaçamento entre os acordeons */
+.accordion-container:not(:last-child) {
+  margin-bottom: 2rem;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .skills-section-title {
+    font-size: 1.5rem;
+  }
+  
+  .accordion-header {
+    padding: 0.8rem;
+    font-size: 0.9rem;
+  }
+  
+  .tool-icon {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+/* ====== Accordion ====== */
+.accordion-container {
+  width: 80%;
+  margin: 2rem auto;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.accordion-item {
+  border-bottom: 1px solid #DA00FF
+}
+
+.accordion-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem;
+  background-color: #0A0C1A;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.accordion-header:hover {
+  background-color: #1A1C2D;
+  
+}
+
+/* Título e ferramentas */
+.accordion-header span {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.accordion-tools {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.tool-icon {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+}
+
+/* Indicador de abrir/fechar */
+.accordion-indicator {
+  font-size: 1.5rem;
+  margin-left: 1rem;
+}
+
+/* Conteúdo do Accordion */
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease;
+}
+
+.accordion-item.active .accordion-content {
+  max-height: 1000px; /* o suficiente para o conteúdo expandir */
+  padding: 1rem;
+  background-color: #1A1C2D;
+}
+
+/* ====== Carrossel Wrapper ====== */
+.carousel-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  margin-top: 1rem;
+}
+
+/* ====== Carrossel ====== */
+.carousel {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  gap: 1rem;
+  padding: 1rem 0;
+}
+
+.carousel::-webkit-scrollbar {
+  display: none;
+}
+
+/* ====== Cards ====== */
+.education-card {
+  flex: 0 0 calc(20% - 1rem);
+  min-width: 180px;
+  max-width: 180px;
+  padding: 1rem;
+  
+  min-width: 140px; /* Metade de 280px */
+  max-width: 140px; /* Adicionei para garantir */
+  scroll-snap-align: start;
+  transition: transform 0.3s ease;
+}
+
+.project-card {
+  flex: 0 0 calc(33.333% - 1rem); /* Mantém o tamanho original */
+  background-color: #0A0C1A;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  
+  min-width: 280px;
+  scroll-snap-align: start;
+  transition: transform 0.3s ease;
+}
+
+.education-card:hover,
+.project-card:hover {
+  border-radius: 30px;
+  background-color: #0A0C1A;
+  box-shadow: #b000cc 0 20px 40px;
+  transform: translateY(-4px);
+}
+
+.education-title {
+  margin-top: 0.5rem;
+  font-weight: 500;
+}
+.education-card img{
+  border-radius: 0.5rem;  
+}
+
+
+/* ====== Botões do Carrossel ====== */
+.carousel-btn {
+  background-color: #1A1C2D;
+  color: #fff;
+  border: none;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 2;
+  height: 2.5rem;
+  width: 2.5rem;
+  transition: background-color 0.3s ease;
+}
+
+.carousel-btn:hover {
+  background-color: #b000cc;
+}
+
+.carousel-btn.prev {
+  margin-right: 0.5rem;
+}
+
+.carousel-btn.next {
+  margin-left: 0.5rem;
+}
+
+/* ====== Projetos: Links ====== */
+.project-links {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.project-links img {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+
+/* ====== Responsividade ====== */
+@media (max-width: 900px) {
+  .education-card,
+  .project-card {
+    flex: 0 0 calc(50% - 1rem);
+  }
+}
+
+@media (max-width: 600px) {
+
+  .education-card{
+    flex: 0 0 (100% - 1rem);
+  }
+  .project-card {
+    flex: 0 0 100%;    
+  }
+  .accordion-header span {
+    font-size: 1rem;
+  }
+  .accordion-content h3{
+    display: none;
+  }
+  .accordion-indicator,
+  .accordion-content button{
+    display: none;
+  }
+  .accordion-content {
+    padding: 0.5rem;
+  }
+
+  .accordion-header {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem;
+  }
+
+  .accordion-tools {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+  .tool-icon {
+    width: 24px;
+    height: 24px;
+  }
+}
+

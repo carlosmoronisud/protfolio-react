@@ -1,0 +1,57 @@
+{
+  "ferramentas": [
+    {
+      "nome": "Agile",
+      "imagem": "/imagem/ag.svg"
+    },
+    {
+      "nome": "HubSpot",
+      "imagem": "/imagem/hub.png"
+    },
+    {
+      "nome": "RPA",
+      "imagem": "/imagem/rpa.png"
+    }
+  ],
+  "formacoes": [
+    {
+      "id": 6,
+      "titulo": "RPA - Escola Nacional de Administração Pública",
+      "imagem": "/imagem/logo-enap.png",
+      "link": "https://drive.google.com/file/d/1JBE35-D_QEAszM9xUNnED_nzcStkoved/view?usp=sharing"
+    }
+  ],
+  "projetos": [
+    {
+      "id": 5,
+      "titulo": "Consultoria Luma Solar",
+      "descricao": "Presença digital, automações e estratégias de marketing.",
+      "imagem": "imagem/luma.png",
+      "links": {
+        "linkedin": "https://www.linkedin.com/pulse/consultoria-estrat%25C3%25A9gica-para-luma-solarluma-solar-presen%25C3%25A7a-garcia-lzxpf?trackingId=effbXXkuQtOkdX%2BAvyyP%2FA%3D%3D&lipi=urn%3Ali%3Apage%3Ad_flagship3_detail_base%3BcGVRvXi3QJqpLuMKFZvkFw%3D%3D",
+        "instagram": "https://www.instagram.com/solarluma/",
+        "site": "https://sites.google.com/view/luma-solar/in%C3%ADcio"
+      }
+    },
+    {
+      "id": 6,
+      "titulo": "BanVic",
+      "descricao": "Dashboard de banco fictício com análise de churn e insights.",
+      "imagem": "imagem/carregandos.jpg",
+      "links": {
+        "looker": "https://lookerstudio.google.com/s/hnttu9Y3d4A",
+        "apresentacao": "https://www.canva.com/design/DAFv3leGSc0/view"
+      }
+    },
+    {
+      "id": 7,
+      "titulo": "Northwind",
+      "descricao": "Case de BI para gestão de stakeholders e KPIs.",
+      "imagem": "imagem/carregandos.jpg",
+      "links": {
+        "pdf": "https://www.canva.com/design/DAFvsI7nsN0/preview",
+        "dashboard": "https://www.canva.com/design/DAFvsI7nsN0/preview"
+      }
+    }
+  ]
+}

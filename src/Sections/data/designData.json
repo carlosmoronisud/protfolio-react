@@ -1,0 +1,79 @@
+{
+  "formacoes": [
+    {
+      "id": 1,
+      "titulo": "UX/UI Design",
+      "imagem": "/imagem/ebac.jpg",
+      "link": "https://drive.google.com/file/d/1fGhkJCWzNrlRxxdiY83gNznjNdeLx24Q/view?usp=sharing"
+    },
+    {
+      "id": 2,
+      "titulo": "Figma aplicado",
+      "imagem": "/imagem/ebac.jpg",
+      "link": "https://drive.google.com/file/d/19Q0ZFdrGLf-BaQbWqgv_O2lm128mQTHz/view?usp=sharing"
+    },
+    {
+      "id": 3,
+      "titulo": "Inteligência Artificial",
+      "imagem": "/imagem/ebac.jpg",
+      "link": "https://drive.google.com/file/d/1jcE-xy0fxnt_PR32DW01IB6CZlB-PYav/view?usp=sharing"
+    },
+    {
+      "id": 4,
+      "titulo": "Photoshop Aplicado",
+      "imagem": "/imagem/ebac.jpg",
+      "link": "https://drive.google.com/file/d/1JULI28BpV0MM9VxYAx121co4jVgAYdwM/view?usp=sharing"
+    }
+  ],
+  "projetos": [
+    {
+      "id": 1,
+      "titulo": "Itaú Assis",
+      "descricao": "Interfaces com foco em UX Research e UI Design.",
+      "imagem": "/imagem/assis.png",
+      "links": {
+        "medium": "https://medium.com/@carlosmoronisud/projeto-parceria-itaú-d191f8686f02",
+        "aplicacao": "https://www.figma.com/proto/xnUpngXKtEEw9yfIh9VXdO/Itau",
+        "figma": "https://www.figma.com/design/xnUpngXKtEEw9yfIh9VXdO/Itau"
+      }
+    },
+    {
+      "id": 2,
+      "titulo": "FinnApp",
+      "descricao": "Controle financeiro validado com UX/UI.",
+      "imagem": "/imagem/finnapp.png",
+      "links": {
+        "medium": "https://medium.com/@carlosmoronisud/desenvolvendo-um-app-de-controle-financeiro-da-identifica%C3%A7%C3%A3o-do-problema-ao-prot%C3%B3tipo-de-alta-bf725796a058",
+        "aplicacao": "https://www.figma.com/proto/FXrgkjCFjltKztxjikmzQT/FinApp",
+        "figma": "https://www.figma.com/design/K4N2ftzpsLMER2EaiUXTzg/FinApp"
+      }
+    },
+    {
+      "id": 3,
+      "titulo": "QReceitas",
+      "descricao": "Busca de receitas com interface simples e eficaz.",
+      "imagem": "/imagem/qreceitas.png",
+      "links": {
+        "figma": "https://www.figma.com/design/NENoZfExtH8VGECYRDjNtD/Qdeli?node-id=0%3A1&t=Ffhpf5RF88eLDzLg-1"
+      }
+    }
+  ],
+  "ferramentas": [
+    {
+      "nome": "Figma",
+      "imagem": "/imagem/figma.png"
+    },
+    {
+      "nome": "Canva",
+      "imagem": "/imagem/canva.png"
+    },
+    {
+      "nome": "Photoshop",
+      "imagem": "/imagem/photos.png"
+    },
+    {
+      "nome": "Illustrator",
+      "imagem": "/imagem/ilust.png"
+    }
+  ]
+}

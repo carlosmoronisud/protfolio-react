@@ -1,0 +1,106 @@
+{
+  "ferramentas": [
+    {
+      "nome": "HTML",
+      "imagem": "/imagem/html.png"
+    },
+    {
+      "nome": "CSS",
+      "imagem": "/imagem/css.png"
+    },
+    {
+      "nome": "JavaScript",
+      "imagem": "/imagem/js.png"
+    },
+    {
+      "nome": "React",
+      "imagem": "/imagem/reac.png"
+    },
+    {
+      "nome": "Bootstrap",
+      "imagem": "/imagem/boot.png"
+    },
+    {
+      "nome": "TypeScript",
+      "imagem": "/imagem/type.png"
+    }
+  ],
+  "formacoes": [
+    {
+      "id": 1,
+      "titulo": "React - Js Oracle Next Education",
+      "imagem": "/imagem/Badge-AluraFlix.png",
+      "link": "https://www.ebac.com.br/"
+    },
+    {
+      "id": 2,
+      "titulo": "Oracle Cloud Banco de dados",
+      "imagem": "/imagem/ONE.jpg",
+      "link": "https://drive.google.com/file/d/1VTpWGny7_bmjdeKBSZ1gQ5shkpmByAMu/view?usp=sharing"
+    },
+    {
+      "id": 3,
+      "titulo": "Front-End Oracle Next Education",
+      "imagem": "/imagem/Badge-AluraGeek.png",
+      "link": "https://drive.google.com/file/d/1fK2uZKTq2AJyK2DRuuKns51p8c2XriUn/view?usp=sharing"
+    },
+    {
+      "id": 4,
+      "titulo": "Oracle Cloud Infrastructure",
+      "imagem": "/imagem/ONE.jpg",
+      "link": "https://drive.google.com/file/d/1tkHD-udz8V1Axs5W_ng6Z_55b4qQSni5/view?usp=sharing"
+    },
+    {
+      "id": 5,
+      "titulo": "MySQL Oracle Next Education",
+      "imagem": "/imagem/Badge-Portfólio.png",
+      "link": "https://drive.google.com/file/d/1WjJ-P1TKK_1dqflBYKQU1w5hpiZWkW0W/view?usp=sharing"
+    }
+  ],
+  "projetos": [
+    {
+      "id": 1,
+      "titulo": "AluraFlix",
+      "descricao": "Catálogo com React + Formulário dinâmico.",
+      "imagem": "/imagem/aluraflix.png",
+      "links": {
+        "github": "https://github.com/carlosmoronisud/aluraflix",
+        "aplicacao": "https://carlosflix-aluraflix.vercel.app/",
+        "figma": "https://www.figma.com/design/UAaeIOMeO0bSgps06xf91B/New-AluraFlix"
+      }
+    },
+    {
+      "id": 2,
+      "titulo": "Larcon Planejados",
+      "descricao": "Página comercial para marcenaria com slider, mapa e contatos.",
+      "imagem": "/imagem/larcon.png",
+      "links": {
+        "github": "https://github.com/carlosmoronisud/larcon/tree/main",
+        "aplicacao": "https://larcon.vercel.app/",
+        "figma": "https://www.figma.com/design/kOw1Z3RQWFCtOl5UYa7N1N/larconplanejados?node-id=0%3A1&t=Bml95ecUoDFxvP7m-1"
+      }
+    },
+    {
+      "id": 3,
+      "titulo": "Alura Geek",
+      "descricao": "Site de e-commerce com funcionalidades CRUD.",
+      "imagem": "/imagem/aluraGeek.png",
+      "links": {
+        "github": "https://github.com/carlosmoronisud/AluraGeek",
+        "aplicacao": "https://alura-geek-orpin.vercel.app/",
+        "figma": "https://www.figma.com/design/L4d19TWCBe0pShvolRZ1cA/New-AluraGeek---PT-(Copy)?node-id=0-1&t=KZfV31znplnYBdha-1"
+      }
+    },
+    {
+      "id": 4,
+      "titulo": "Decodificador de Texto",
+      "descricao": "App responsivo com funções de codificar e decodificar.",
+      "imagem": "/imagem/decod.png",
+      "links": {
+        "github": "https://github.com/carlosmoronisud/projetosAlura",
+        "aplicacao": "https://carlosmoronisud.github.io/projetosAlura/",
+        "figma": "https://www.figma.com/design/cAhAcV6IyWNHRpZ9v8pPtL/Alura-Challenge---Desafio-1---L%C3%B3gica?t=NxTSwTgGYKhoE31d-1"
+      }
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+/* src/index.css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  font-family: 'Segoe UI', sans-serif;  
+  color: #ffffff;
+  background: linear-gradient(135deg, #273070 0%, #12152E 50%, #1C1A2B 100%);
+  background-attachment: fixed;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}

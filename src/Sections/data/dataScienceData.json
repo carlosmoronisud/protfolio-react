@@ -1,0 +1,67 @@
+{
+  "ferramentas": [
+    {
+      "nome": "Power BI",
+      "imagem": "/imagem/pb.png"
+    },
+    {
+      "nome": "Looker Studio",
+      "imagem": "/imagem/looker.png"
+    },
+    {
+      "nome": "Excel",
+      "imagem": "/imagem/exel.png"
+    },
+    {
+      "nome": "SQL",
+      "imagem": "/imagem/mysql.png"
+    },
+    {
+      "nome": "Python",
+      "imagem": "/imagem/py.png"
+    },
+    {
+      "nome": "Pandas",
+      "imagem": "/imagem/pandas.png"
+    }
+  ],
+  "formacoes": [
+    {
+      "id": 1,
+      "titulo": "Análise e Desenvolvimento de Sistemas - Mackenzie 2026",
+      "imagem": "/imagem/mack.png",
+      "link": "https://www.mackenzie.br/"
+    },
+    {
+      "id": 2,
+      "titulo": "Assistente de TI - Unicesumar 2024",
+      "imagem": "/imagem/unices.jpeg",
+      "link": "https://drive.google.com/file/d/15hNz7zejBrFoLi7x_3Hhss19fOpansg1/view?usp=sharing"
+    }
+  ],
+  "projetos": [
+    {
+      "id": 1,
+      "titulo": "MackPesquisa - CIBERDEM",
+      "descricao": "Bolsa de graduação no projeto 'Mineração e Visualização de Argumentos de Redes Sociais pesquisador Jr'.",
+      "imagem": "/imagem/mack.png",
+      "links": {
+        "site": "https://ciberdem.mack.com.br/"
+      }
+    },
+    {
+      "id": 2,
+      "titulo": "IA Educacional",
+      "descricao": "Bot em Python que ajuda crianças a aprenderem matemática.",
+      "imagem": "/imagem/carregandos.jpg",
+      "links": {}
+    },
+    {
+      "id": 3,
+      "titulo": "Modelo de Churn",
+      "descricao": "Modelo preditivo de abandono de clientes usando Pandas e Scikit-Learn.",
+      "imagem": "/imagem/carregandos.jpg",
+      "links": {}
+    }
+  ]
+}

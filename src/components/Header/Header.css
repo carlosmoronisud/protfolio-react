@@ -1,0 +1,231 @@
+:root {
+  --bg-dark: #0A0C1A;
+  --text-purple: #DA00FF;
+  --highlight: #E0E0E0;
+}
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+body {
+  font-family: 'Courier New', sans-serif;
+  background: linear-gradient(135deg, #0A0C1A 0%, #12152E 50%, #1C1A2B 100%);
+  color: var(--text-purple);
+  line-height: 1.6;
+}
+
+header {
+  width: 100%;
+  padding: 1rem;
+  color: var(--highlight);
+  border-bottom: solid 0.1px #e59ff1;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.left-section {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.site-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.language-buttons {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.language-buttons button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.language-buttons img {
+  width: 24px;
+  height: 24px;
+  object-fit: cover;
+}
+
+.right-section {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  position: relative;
+}
+
+/* Foto de perfil */
+.foto {
+  width: 100px;
+  height: 100px;
+  border: 2px solid #DA00FF;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Menu de navegação DESKTOP */
+.desktop-nav {
+  display: flex;
+}
+
+.desktop-nav .navContent {
+  display: flex;
+  list-style: none;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.desktop-nav .navContent li a {
+  text-decoration: none;
+  color: wheat;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.desktop-nav .navContent li a:hover {
+  color: #6a00cc;
+}
+
+/* Menu de navegação MOBILE */
+.mobile-nav {
+  display: none;
+}
+
+/* Botão do menu (hambúrguer) */
+.menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  width: 30px;
+  height: 24px;
+  z-index: 1001;
+}
+
+.menu-toggle .bar {
+  display: block;
+  width: 100%;
+  height: 4px;
+  background-color: var(--highlight);
+  margin: 4px 0;
+  transition: 0.4s;
+  border-radius: 2px;
+}
+
+/* Animação para "X" quando menu aberto */
+.menu-toggle.open .bar:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
+
+.menu-toggle.open .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.menu-toggle.open .bar:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+}
+
+/* Animação de troca de idioma */
+:root {
+  --lang-change: none;
+}
+
+.language-buttons button {
+  animation: var(--lang-change);
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.2); }
+  100% { transform: scale(1); }
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .desktop-nav {
+    display: none;
+  }
+  
+  .mobile-nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 70%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.9);
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .mobile-nav .navContent {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+
+  .mobile-nav .navContent li {
+    margin: 2rem 0;
+  }
+
+  .mobile-nav .navContent a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+  }
+
+  .mobile-nav .navContent a:hover {
+    color: #6a00cc;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  .language-buttons {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 101;
+    background: rgba(0,0,0,0.7);
+    padding: 10px;
+    border-radius: 50px;
+  }
+}
+
+/* Mobile pequeno */
+@media (max-width: 468px) {
+  .right-section {
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .mobile-nav {
+    width: 80%;
+  }
+
+  .foto {
+    width: 80px;
+    height: 80px;
+  }
+}

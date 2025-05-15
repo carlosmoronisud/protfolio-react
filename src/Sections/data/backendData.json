@@ -1,0 +1,56 @@
+{
+  "ferramentas": [
+    {
+      "nome": "Java",
+      "imagem": "/imagem/java.png"
+    },
+    {
+      "nome": "Spring",
+      "imagem": "/imagem/spring.png"
+    },
+    {
+      "nome": "MySQL",
+      "imagem": "/imagem/mysql.png"
+    }
+  ],
+  "formacoes": [
+    {
+      "id": 1,
+      "titulo": "BootCamp Fullstack Java",
+      "imagem": "/imagem/gen.png",
+      "link": "https://brazil.generation.org/"
+    }
+  ],
+  "projetos": [
+    {
+      "id": 1,
+      "titulo": "Farmácia CRUD",
+      "descricao": "API para cadastro de produtos e categorias, com endpoints REST completos.",
+      "imagem": "/imagem/farmacia.png",
+      "links": {
+        "github": "https://github.com/carlosmoronisud/farmacia-CRUD",
+        "documentacao": "https://www.notion.so/seulink/farmacia-crud"
+      }
+    },
+    {
+      "id": 2,
+      "titulo": "Conta Bancária",
+      "descricao": "Simulação de sistema bancário com operações como saque, depósito e transferências.",
+      "imagem": "/imagem/banco.png",
+      "links": {
+        "github": "https://github.com/carlosmoronisud/conta-bancaria",
+        "documentacao": "https://www.notion.so/seulink/conta-bancaria"
+      }
+    },
+    {
+      "id": 3,
+      "titulo": "Livraria Digital",
+      "descricao": "Sistema de gerenciamento de livros, autores e categorias com relacionamentos.",
+      "imagem": "/imagem/livraria.png",
+      "links": {
+        "github": "https://github.com/carlosmoronisud/livraria-digital",
+        "documentacao": "https://www.notion.so/seulink/livraria-digital"
+      }
+    }
+  ]
+}
